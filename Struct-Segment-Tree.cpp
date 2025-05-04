@@ -121,7 +121,7 @@ public:
     }
 };
 
-void nghzann(){
+void nlpmai(){
     ll n;
     cin>>n;
     vector<ll>a(n);
@@ -153,13 +153,13 @@ int main(){
     //freopen("input.inp","r",stdin);
     //freopen("input.out","w",stdout);
     ll testcase = 1; //cin>>testcase;
-    for (ll test = 1; test <= testcase; ++test) nghzann();
+    for (ll test = 1; test <= testcase; ++test) nlpmai();
     return 0;
 }
 
 /*
      /\\
     (-.-)
-    /> >\ <3 nguyen gia han
+    /> >\ <3 nlpmai
 */
 
