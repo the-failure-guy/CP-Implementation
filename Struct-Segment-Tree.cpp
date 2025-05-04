@@ -1,6 +1,6 @@
 /************************************************************
     Problem: https://oj.vnoi.info/problem/segtree_itez1
-    Author: simp_nghan
+    Author: zmcarries
 *************************************************************/
 #include <bits/stdc++.h>
 #define ll long long
