@@ -5,26 +5,32 @@
 #define se second
 #define pb push_back
 #define endl '\n'
+#define taskname "temp"
 using namespace std;
 
-const int MAX = 1e3;
-const int MOD = 1e9 + 7;
+const ll INF = 1e18;
 
-void nlpmai(){
+void solve(){
 
 }
 
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    //freopen("input.inp","r",stdin);
-    //freopen("input.out","w",stdout);
-    ll testcase = 1; //cin>>testcase;
-    for (ll test = 1; test <= testcase; ++test) nlpmai();
+    freopen(taskname".INP", "r", stdin);
+    freopen(taskname".OUT", "w", stdout);
+    ll testcase = 1;
+    //cin >> testcase;
+    for (ll test = 1; test <= testcase; ++test){
+        solve();
+    }
     return 0;
 }
 
 /*
-     /\\
-    (-.-)
-    /> >\ <3 nlpmai
+    roi em se gap mot chang trai khac
+    nam tay va buoc di bau troi xanh khac
+
+        /\\              /\\          //\
+       (TwT)            (-.-)        (-.-)
+       /= =\            /> \> <3    </  <\
 */
