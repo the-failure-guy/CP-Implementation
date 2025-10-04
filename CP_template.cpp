@@ -37,38 +37,41 @@
 #define se second
 #define pb push_back
 #define endl '\n'
-#define taskname "temp"
+#define mod(x, k) ((((x) % (k)) + (k)) % (k))
+#define getbit(x, y) (((x) >> (y)) & 1)
+#define compress(a) (a).pb(-INF); sort((a).begin(), (a).end()); (a).erase(unique((a).begin(), (a).end()), (a).end());
+#define taskname ""
 using namespace std;
 
 const ll INF = 1e18;
 const ll MOD = 1e9 + 7;
 
-ll fast_pow(ll a, ll b) {
-    ll res = 1, base = a;
-    while (b) {
-        if (b & 1) {
-            res *= base;
+ll fast_pow(ll a, ll b){
+        ll res = 1, base = a;
+        while (b){
+                if (b & 1) res *= base;
+                base *= base;
+                b >>= 1;
         }
-        base *= base;
-        b >>= 1;
-    }
-    return res;
+        return res;
 }
 
-void solve() {
-    
+void solve(){
+
 }
 
 int main(){
-    ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    //freopen(taskname".INP", "r", stdin);
-    //freopen(taskname".OUT", "w", stdout);
-    ll testcase = 1;
-    cin >> testcase;
-    for (ll test = 1; test <= testcase; ++test){
-        solve();
-    }
-    return 0;
+        ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
+        if (fopen(taskname".INP", "r")){
+                freopen(taskname".INP", "r", stdin);
+                //freopen(taskname".OUT", "w", stdout);
+        }
+        ll testcase = 1;
+        //cin >> testcase;
+        for (ll test = 1; test <= testcase; ++test){
+                solve();
+        }
+        return 0;
 }
 
 /*
@@ -79,3 +82,4 @@ int main(){
        (TwT)            (-.-)        (-.-)
        /= =\            /> \> <3    </  <\
 */
+
