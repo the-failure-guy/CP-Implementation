@@ -37,24 +37,14 @@
 #define se second
 #define pb push_back
 #define endl '\n'
+#define taskname "temp"
+#define getbit(x, y) ((x) >> (y) & 1)
 #define mod(x, k) ((((x) % (k)) + (k)) % (k))
-#define getbit(x, y) (((x) >> (y)) & 1)
-#define compress(a) (a).pb(-INF); sort((a).begin(), (a).end()); (a).erase(unique((a).begin(), (a).end()), (a).end());
-#define taskname ""
+#define compress(x) (x).pb(-INF); sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
 using namespace std;
 
 const ll INF = 1e18;
 const ll MOD = 1e9 + 7;
-
-ll fast_pow(ll a, ll b){
-        ll res = 1, base = a;
-        while (b){
-                if (b & 1) res *= base;
-                base *= base;
-                b >>= 1;
-        }
-        return res;
-}
 
 void solve(){
 
@@ -64,7 +54,7 @@ int main(){
         ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
         if (fopen(taskname".INP", "r")){
                 freopen(taskname".INP", "r", stdin);
-                //freopen(taskname".OUT", "w", stdout);
+                freopen(taskname".OUT", "w", stdout);
         }
         ll testcase = 1;
         //cin >> testcase;
@@ -75,11 +65,12 @@ int main(){
 }
 
 /*
-    roi em se gap mot chang trai khac
-    nam tay va buoc di bau troi xanh khac
+        INPUT:
 
-        /\\              /\\          //\
-       (TwT)            (-.-)        (-.-)
-       /= =\            /> \> <3    </  <\
 */
 
+/*
+         /\\
+        (-.-)
+        /> \> <3 signed by s1mp3ru
+*/
