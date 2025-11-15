@@ -16,7 +16,6 @@ const ll MOD = 1e9 + 7;
 const int MAX = 2e7;
 
 bitset<MAX + 1>snt;
-unordered_map<ll, bool>cache;
 
 void sieve(){
         snt.set();
@@ -147,6 +146,5 @@ int main(){
 /*
          /\\
         (-.-)
-        /> \> <3 signed by s1mp3ru
+        /> \> <3 signed by s1mpu
 */
-
