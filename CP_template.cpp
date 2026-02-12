@@ -31,16 +31,16 @@
 //⠀⠀⠀⠀⣿⠙⢿⣿⣤⣤⣼⡏⠀⠀⠀⠀⠀⠀⢀⠀⣼⣿⣿⠀⢠⣿⣟⠻⣾⣛⣛⠻⢿⣷⣤⣄⣀⡙⠻⠷⠶⠶⠿⣻⡟⠁⠀⣠⣾⣿⣿⣿⣿⣿⣟⣋⣡⣠⣄⣿⡇⠀⠀
 
 #include <bits/stdc++.h>
-#define ll long long
-#define ull unsigned long long
-#define fi first
-#define se second
-#define pb push_back
-#define endl '\n'
-#define taskname "temp"
-#define getbit(x, y) ((x) >> (y) & 1)
-#define mod(x, k) ((((x) % (k)) + (k)) % (k))
-#define compress(x) (x).pb(-INF); sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
+#define ll              long long
+#define ull             unsigned long long
+#define fi              first
+#define se              second
+#define pb              push_back
+#define endl            '\n'
+#define taskname        "temp"
+#define getbit(x, y)    ((x) >> (y) & 1)
+#define mod(x, k)       ((((x) % (k)) + (k)) % (k))
+#define compress(x)     (x).pb(-INF); sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
 using namespace std;
 
 const ll INF = 1e18;
