@@ -11,6 +11,7 @@
 #define getbit(x, y) ((x) >> (y) & 1)
 #define mod(x, k) ((((x) % (k)) + (k)) % (k))
 #define compress(x) sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
+#define debug(x) cerr << #x << " = " << x << endl;
 
 #define meomeomeo ios_base::sync_with_stdio(false); cin.tie(NULL);
 #define imissher(shiihana) if (fopen(shiihana".INP", "r")) {freopen(shiihana".INP", "r", stdin); freopen(shiihana".OUT", "w", stdout);}
