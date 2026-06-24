@@ -7,7 +7,7 @@
 #define endl '\n'
 
 #define getbit(x, k) ((x) >> (k) & 1)
-#define onbit(x, k) ((x) | (1 << (k)))
+#define onbit(x, k) ((x)  (1 << (k)))
 #define offbit(x, k) ((x) & ~(1 << (k)))
 #define mod(x, k) ((((x) % (k)) + (k)) % (k))
 #define compress(x) sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
@@ -21,6 +21,9 @@ using namespace std;
 const int LOG = 20;
 const ll INF = 1e18;
 const ll MOD = 1e9 + 7;
+
+template <class T> bool maximize(T &a, const T &b) {return (a < b ? (a = b, true) : false);}
+template <class T> bool minimize(T &a, const T &b) {return (a > b ? (a = b, true) : false);}
 
 void lamsaodexungdangvoiem(){
 
