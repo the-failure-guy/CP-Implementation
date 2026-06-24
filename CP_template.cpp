@@ -7,7 +7,7 @@
 #define endl '\n'
 
 #define getbit(x, k) ((x) >> (k) & 1)
-#define onbit(x, k) ((x)  (1 << (k)))
+#define onbit(x, k) ((x) | (1 << (k)))
 #define offbit(x, k) ((x) & ~(1 << (k)))
 #define mod(x, k) ((((x) % (k)) + (k)) % (k))
 #define compress(x) sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
