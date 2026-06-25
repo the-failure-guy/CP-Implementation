@@ -25,7 +25,7 @@ const ll MOD = 1e9 + 7;
 template <class T> bool maximize(T &a, const T &b) {return (a < b ? (a = b, true) : false);}
 template <class T> bool minimize(T &a, const T &b) {return (a > b ? (a = b, true) : false);}
 
-void lamsaodexungdangvoiem(){
+void anhlamgixungdangvoiem(){
 
 }
 
@@ -35,7 +35,7 @@ int main(){
         ll testcase = 1;
         //cin >> testcase;
         for (ll test = 1; test <= testcase; ++test){
-                lamsaodexungdangvoiem();
+                anhlamgixungdangvoiem();
         }
         return 0;
 }
