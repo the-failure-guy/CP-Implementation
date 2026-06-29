@@ -13,7 +13,7 @@
 #define compress(x) sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
 #define debug(x) cerr << #x <<  " = " << x << endl;
 
-#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL);
+#define fastio ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define imissher(xquynh) if (fopen("test.INP", "r")) {freopen("test.INP", "r", stdin);} else if (fopen(xquynh".INP", "r")) {freopen(xquynh".INP", "r", stdin); freopen(xquynh".OUT", "w", stdout);}
 
 using namespace std;
