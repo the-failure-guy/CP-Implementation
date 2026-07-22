@@ -10,7 +10,7 @@
 #define onbit(x, k)             ((x) | (1 << (k)))
 #define offbit(x, k)            ((x) & ~(1 << (k)))
 #define mod(x, k)               ((((x) % (k)) + (k)) % (k))
-#define compress(x)             sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
+#define compress(x)             x.pb(-INF); sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
 #define debug(x)                cerr << #x <<  " = " << x << endl;
 
 #define fastio                  ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
