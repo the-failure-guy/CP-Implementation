@@ -10,15 +10,14 @@
 #define onbit(x, k)             ((x) | (1 << (k)))
 #define offbit(x, k)            ((x) & ~(1 << (k)))
 #define mod(x, k)               ((((x) % (k)) + (k)) % (k))
-#define compress(x)             x.pb(-INF); sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
+#define compress(x)             sort((x).begin(), (x).end()); (x).erase(unique((x).begin(), (x).end()), (x).end());
 #define debug(x)                cerr << #x <<  " = " << x << endl;
 
 #define fastio                  ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-#define imissher(xquynh)        if (fopen("test.INP", "r")) {freopen("test.INP", "r", stdin);} else if (fopen(xquynh".INP", "r")) {freopen(xquynh".INP", "r", stdin); freopen(xquynh".OUT", "w", stdout);}
+#define imissher(hnuyqnuax)     if (fopen(hnuyqnuax".INP", "r")) {freopen(hnuyqnuax".INP", "r", stdin); freopen(hnuyqnuax".OUT", "w", stdout);}
 
 using namespace std;
 
-const int LOG = 20;
 const ll INF = 1e18;
 const ll MOD = 1e9 + 7;
 
@@ -31,7 +30,7 @@ template <class T> bool minimize(T &a, const T &b){
 }
 
 void anhlamgixungdangvoiem(){
-        
+
 }
 
 int main(){
@@ -46,9 +45,8 @@ int main(){
 }
 
 /*
-
          /\\
-        (-.-)
-        />  \> <3 ben ay em co ai roi...
-
+        (-.-)   Xin gửi đến người tôi thương, thầm thương thầm nhớ nay còn vấn vương
+        />  \>  Híu hắt gió bên sông, đứng trông người xưa chưa lần hồi âm...
 */
+
